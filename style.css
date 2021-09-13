@@ -232,7 +232,7 @@ ul li a:hover::before{
 .image{
     display: none;
     position: relative;
-    z-index: 10;
+    z-index: 5;
     top: 0;
     height:100%;
     width:100%;
@@ -242,7 +242,7 @@ ul li a:hover::before{
 }
 
 .appear{
-    z-index: 99;
+    z-index: 6;
     display: block;
 }
 
