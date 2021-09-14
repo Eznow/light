@@ -21,13 +21,13 @@
     .bulb   
     {   
     position: relative;
-    right: -203px;
+    bottom: 40px;
     width: 80px;
     height: 80px;
     background: #444;
     border-radius: 50%;
     z-index: 2;
-    }     
+    } 
     
     body.on .bulb
     { 
@@ -165,10 +165,10 @@
 
     section
 {
-    height: 200px;
-    position: relative;
-    top: -170px;
-    right: -260px;
+    height: 150px;
+    position: absolute;
+    bottom: 130px;
+    left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
