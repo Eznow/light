@@ -13,11 +13,12 @@ const $$ = document.querySelectorAll.bind(document);
 const anh = $('.image');
 const text = $('li a');
 const haha = $('section');
+const bulb = $('.bulb');
 function mainFunction(){
  setTimeout(function myFunction(){
      anh.classList.add("appear");
      text.classList.add("disappear");
      audio2.play();
-     
+     bulb.classList.add("disappear");
  },5000);
 }
